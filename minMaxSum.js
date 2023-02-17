@@ -15,5 +15,5 @@ function miniMaxSum(arr) {
         maxSum = sum - min;
         minSum = sum - max;
     }
-    return minSum + " " + maxSum;
+    return console.log(minSum + " " + maxSum);
 }
